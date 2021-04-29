@@ -1,0 +1,232 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.navbar{
+    background-color: black;
+    padding: 1em 8em;
+}
+
+.navbar .navbar-brand{
+    font: 1.4em;0
+    font-weight: 700;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: white;
+    padding: 0 0.8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover,
+#navbarSupportedContent > ul > li:nth-child(n) > a:active {
+    color: lightgreen;
+}
+
+#navbarSupportedContent > button{
+    background: lightgreen;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+}
+
+.embed-responsive{
+    height: 735px;
+}
+
+.mid {
+    position: relative;
+    text-align: center;
+}
+
+.mid .main-page-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mid .main-page-text p{
+    width: 55%;
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+    padding: 1.1rem;
+}
+
+.mid .main-page-text a{
+    background: lightgreen;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.mid .main-page-text a:hover {
+    background-color: white;
+}
+
+.about{
+    background-color: black;
+}
+
+.about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.about .text h6{
+    color: lightgreen;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.about .text h2{
+    color:blanchedalmond;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.about .text p{
+    color:blanchedalmond;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.about .text a{
+    background: lightgreen;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color:black;
+}
+
+.discovery{
+    background-color: white;
+}
+
+.discovery .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.discovery .text h6{
+    color:  darkgreen;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.discovery .text h2{
+    color:black;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.discovery .text p{
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.discovery .text a{
+    background: black;
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color:white;
+}
+
+.service{
+    background-color: black;
+}
+
+.service .one{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 7px;
+}
+
+.sign{
+    
+}
+
+.sign .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.sign .text h6{
+    color: lightgreen;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.sign .text h2{
+    color: black;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.sign .text p{
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.sign .text a{
+    background: black;
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color:white;
+}
+
+body > footer{
+    background-color: black;
+}
+
+
+body > footer > ul.list-unstyled.list-inline.text-center.py-2 > li:nth-child(2) > a{
+    background: lightgreen;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+    border: none;
+    color: black;   
+}
+
+@media screen and (max-width: 988px){
+    .navbar{
+        padding: 1rem;
+    }
+
+    #navbarSupportedContent > ul{
+        padding-left: 0.8rem;
+    }
+
+    
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    padding: 0.8rem 0;
+}
+    
+}
