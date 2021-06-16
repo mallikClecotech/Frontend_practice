@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.container-fluid .back-img{
+	height: 100vh;
+	background-image: linear-gradient(to right bottom, black , rgba(51, 51, 51, 0.295)),url('https://wallpapercave.com/wp/wp3753810.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+.text-box{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.text-box h1{
+	font-weight: 700;
+}
+
+.text-box button{
+	border-radius: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.card-style{
+	margin-top: 4rem;
+}
+
+.card{
+	border: none;
+}
+
+.card-body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.card-img-top{
+	height: 12rem;
+	width: 18rem;
+	filter: grayscale(1);
+}
+
+.card-img-top:hover{
+	filter: grayscale(0);
+}
+
+
+.find-city{
+	height: 50vh;
+	margin-top: 4rem;
+	background-image:linear-gradient(to right bottom, black , rgba(51, 51, 51, 0.695)),url('https://wallpaperaccess.com/download/black-world-map-4k-3004548');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+.find-city-items h2{
+	margin-left: -4rem;
+}
+
+.find-city-items .btn{
+	margin-left: 1.1rem;
+}
+
+
+.gallery{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4rem;
+}
+
+.gallery h1{
+	margin-left: -4.5rem;
+	margin-bottom: 4.5rem;
+}
+
+.image-box{
+	margin-left: 7rem;
+	margin-bottom: 4.5rem;
+}
+
+.images{
+	height: 12rem;
+	width: 18rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	filter: grayscale(1);
+}
+
+.images:hover{
+	filter: grayscale(0);
+}
+
+
+
+.img-1{
+	background-image: url('https://media.istockphoto.com/photos/branch-bank-picture-id120904829?k=6&m=120904829&s=612x612&w=0&h=6gjpn0TZ4uQFhImurtIIs30IRqlcJxY_GlzsNgSPyYo=');
+}
+
+.img-2{
+	background-image: url('https://www.india.com/wp-content/uploads/2018/06/banks.jpg');
+}
+
+.img-3{
+	background-image: url('https://www.businessinsider.in/thumb/msid-74907609,width-1200,height-900/solapur-people-inside-sbi-bank-to-withdraw-cash-during-nationwide-lockdown-in-t-.jpg');
+}
+
+.img-4{
+	background-image: url('https://cdn2.hubspot.net/hubfs/4875324/Social_Media_Images/190605_RBCU_0194.jpg');
+}
+
+.img-5{
+	background-image: url('https://static.indianexpress.com/m-images/M_Id_310715_bank_strike.jpg');
+}
+
+.img-6{
+	background-image: url('https://www.soolide.com/wp-content/uploads/2021/03/Inside-a-bank.jpg');
+}
+
+.img-7{
+	background-image: url('https://media.istockphoto.com/photos/modern-office-interior-design-picture-id1153013977?k=6&m=1153013977&s=612x612&w=0&h=Dl5DCapKlSc-zwgC_XswwmKzHkGA0QfapUQimeBa2oo=');
+}
+
+.img-8{
+	background-image: url('https://i.ndtvimg.com/i/2017-11/up-bank-inside-650_650x400_81510163500.jpg');
+}
+
+.img-9{
+	background-image: url('https://www.dailyexcelsior.com/wp-content/uploads/2017/10/banks.jpg');
+}
+
+
+.footer-part{
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+
