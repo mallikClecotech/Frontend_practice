@@ -6,6 +6,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
 }
 
 
@@ -44,6 +45,7 @@
 
 .card-style{
 	margin-top: 4rem;
+	padding-left: 3rem;
 }
 
 .card{
@@ -65,6 +67,7 @@
 
 .card-img-top:hover{
 	filter: grayscale(0);
+	transform: scale(0.9);
 }
 
 
@@ -80,14 +83,6 @@
 	justify-content: center;
 	align-items: center;
 	background-attachment: fixed;
-}
-
-.find-city-items h2{
-	margin-left: -4rem;
-}
-
-.find-city-items .btn{
-	margin-left: 1.1rem;
 }
 
 
@@ -119,6 +114,7 @@
 
 .images:hover{
 	filter: grayscale(0);
+	transform: scale(0.9);
 }
 
 
@@ -166,3 +162,87 @@
 	font-weight: bold;
 }
 
+
+@media screen and (max-width: 768px){
+.container-fluid .back-img{
+	height: 60vh;
+}
+.text-box{
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%,-60%);
+	color: white;
+}
+.card-style{
+	padding-left: 2rem;
+}
+
+.card-img-top{
+	height: 10rem;
+	width: 18rem;
+}
+
+.find-city{
+	height: 30vh;
+
+}
+.find-city-items h2{
+	margin-left: 0;
+}
+.find-city-items .btn{
+	margin-left: 4rem;
+}
+
+.gallery h1{
+	margin-left: 0;
+	margin-bottom: 3rem;
+}
+.image-box{
+	margin-left: 4rem;
+	margin-bottom: 3rem;
+}
+}
+
+@media screen and (max-width: 375px){
+
+
+.text-box button{
+	transform: translate(-115%);
+}
+
+.card-style{
+	margin-bottom: -1.5rem;
+}
+.image-box{
+	margin-left: 1.5rem;
+	margin-bottom: 3rem;
+}
+}
+
+@media screen and  (min-width: 376px) and  (max-width: 414px){
+
+.text-box p{
+	transform: translate(-5%);
+}
+
+.text-box button{
+	transform: translate(-130%,-25%);
+}
+
+.card-style{
+	padding-left: 3rem;
+	margin-bottom: -1.5rem;
+	scroll-behavior: smooth;
+}
+
+.image-box{
+	margin-left: 1.5rem;
+	margin-bottom: 4.5rem;
+}
+
+.image-box{
+	margin-left: 2.5rem;
+	margin-bottom: 3rem;
+}
+}
